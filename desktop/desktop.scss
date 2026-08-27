@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  html.feishu-theme .d-header .title :is(img, picture, .logo-big, .logo-small) {
+    display: block !important;
+    width: 28px !important;
+    height: 28px !important;
+    object-fit: contain !important;
+  }
+
+  html.feishu-theme .d-header .title a {
+    width: 40px !important;
+    justify-content: center !important;
+  }
+}

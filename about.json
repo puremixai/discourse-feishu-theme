@@ -1,0 +1,10 @@
+{
+  "name": "feishu",
+  "component": false,
+  "about_url": "https://xai.run",
+  "license_url": null,
+  "authors": "XAI.RUN",
+  "theme_version": "0.2.4",
+  "minimum_discourse_version": "3.0.0",
+  "maximum_discourse_version": null
+}

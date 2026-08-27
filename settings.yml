@@ -1,0 +1,34 @@
+enable_document_layout:
+  type: bool
+  default: true
+  description:
+    en: "Enable the Feishu document-style layout across the forum."
+    zh_CN: "启用飞书文档风格的社区布局。"
+
+show_topic_tools:
+  type: bool
+  default: true
+  description:
+    en: "Show the small topic toolbar on topic pages."
+    zh_CN: "在主题页显示小型主题工具栏。"
+
+show_post_style_toggle:
+  type: bool
+  default: true
+  description:
+    en: "Allow readers to switch between standard and compact post reading."
+    zh_CN: "允许读者切换标准阅读和紧凑阅读。"
+
+show_back_button:
+  type: bool
+  default: true
+  description:
+    en: "Show a return-to-topics button on topic pages."
+    zh_CN: "在主题页显示返回主题列表按钮。"
+
+follow_color_mode:
+  type: bool
+  default: true
+  description:
+    en: "Follow Discourse and system light/dark mode changes."
+    zh_CN: "跟随 Discourse 和系统的浅色/深色模式。"

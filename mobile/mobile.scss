@@ -1,0 +1,260 @@
+@media (max-width: 767px) {
+  html.feishu-theme,
+  html.feishu-theme body {
+    min-width: 0 !important;
+    overflow-x: hidden;
+  }
+
+  html.feishu-theme .d-header-wrap,
+  html.feishu-theme body .d-header {
+    height: 56px !important;
+    min-height: 56px !important;
+  }
+
+  html.feishu-theme .d-header .wrap,
+  html.feishu-theme .d-header .contents {
+    height: 56px !important;
+    min-height: 56px !important;
+  }
+
+  html.feishu-theme .d-header .wrap {
+    padding: 0 12px !important;
+  }
+
+  html.feishu-theme .d-header .title {
+    width: auto !important;
+    min-width: 0 !important;
+    margin-left: 8px !important;
+  }
+
+  html.feishu-theme .d-header .title :is(img, picture, .logo-big, .logo-small) {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  html.feishu-theme .d-header .panel {
+    margin-left: auto !important;
+  }
+
+  html.feishu-theme .sidebar-wrapper {
+    display: none !important;
+  }
+
+  html.feishu-theme #main-outlet-wrapper {
+    display: block !important;
+    min-height: calc(100vh - 56px) !important;
+    padding: 0 12px !important;
+  }
+
+  html.feishu-theme #main-outlet {
+    min-height: calc(100vh - 56px) !important;
+    padding: 72px 0 48px !important;
+  }
+
+  html.feishu-home #main-outlet {
+    padding-top: 72px !important;
+  }
+
+  html.feishu-theme .feishu-home-heading {
+    top: 0 !important;
+    right: 16px !important;
+    left: 16px !important;
+    height: 56px !important;
+    font-size: 18px !important;
+  }
+
+  html.feishu-home .navigation-container {
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+    min-height: 48px !important;
+    overflow-x: auto !important;
+  }
+
+  html.feishu-home .navigation-container .nav-pills {
+    flex: 1 0 auto !important;
+    min-width: max-content !important;
+  }
+
+  html.feishu-home .navigation-container > .navigation-controls {
+    margin-left: auto !important;
+  }
+
+  html.feishu-home .topic-list-container {
+    overflow-x: auto !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  html.feishu-home .topic-list {
+    min-width: 680px !important;
+  }
+
+  html.feishu-home .topic-list-item,
+  html.feishu-home .topic-list-item > td {
+    height: 64px !important;
+  }
+
+  html.feishu-home .topic-list-item .topic-excerpt {
+    display: none !important;
+  }
+
+  html.feishu-home .topic-list-item .posters {
+    width: 86px !important;
+  }
+
+  html.feishu-home .topic-list-item .activity {
+    width: 82px !important;
+  }
+
+  html.feishu-topic #main-outlet {
+    padding-top: 72px !important;
+  }
+
+  html.feishu-topic #topic-title,
+  html.feishu-topic .container.posts,
+  html.feishu-topic .topic-above-post-stream-outlet {
+    max-width: none !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
+
+  html.feishu-topic #topic-title {
+    margin-top: 12px !important;
+  }
+
+  html.feishu-topic #topic-title h1,
+  html.feishu-topic #topic-title .fancy-title,
+  html.feishu-topic #topic-title .fancy-title a {
+    font-size: 26px !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.4px !important;
+  }
+
+  html.feishu-topic .container.posts {
+    padding-bottom: 84px !important;
+  }
+
+  html.feishu-topic .feishu-floating-toggle {
+    bottom: 12px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  html.feishu-topic .feishu-topic-tools-toggle {
+    right: 12px !important;
+  }
+
+  html.feishu-topic .feishu-back-toggle {
+    right: 60px !important;
+  }
+
+  html.feishu-topic .feishu-post-style-toggle {
+    left: 12px !important;
+  }
+
+  html.feishu-topic.feishu-topic-tools-open .topic-navigation {
+    right: 12px !important;
+    bottom: 64px !important;
+    width: calc(100vw - 24px) !important;
+    max-width: calc(100vw - 24px) !important;
+  }
+
+  html.feishu-theme .d-editor-container,
+  html.feishu-theme .composer-popup,
+  html.feishu-theme #reply-control {
+    max-width: calc(100vw - 24px) !important;
+  }
+
+  html.feishu-home .topic-list-container {
+    overflow-x: hidden !important;
+  }
+
+  html.feishu-home .topic-list,
+  html.feishu-home .topic-list tbody,
+  html.feishu-home .topic-list tr,
+  html.feishu-home .topic-list td {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html.feishu-home .topic-list {
+    min-width: 0 !important;
+  }
+
+  html.feishu-home .topic-list-item {
+    position: relative !important;
+    min-height: 64px !important;
+    height: auto !important;
+  }
+
+  html.feishu-home .topic-list-item > td.main-link {
+    min-height: 64px !important;
+    padding: 10px 12px 9px 50px !important;
+  }
+
+  html.feishu-home .topic-list-item .main-link::before {
+    top: 18px !important;
+    left: 16px !important;
+    transform: none !important;
+  }
+
+  html.feishu-home .topic-list-item > td.posters,
+  html.feishu-home .topic-list-item > td.num,
+  html.feishu-home .topic-list-item > td.activity {
+    display: none !important;
+  }
+
+  html.feishu-home .topic-list-item .topic-excerpt {
+    display: none !important;
+  }
+
+  html.feishu-home .topic-list-item > td.topic-list-data {
+    min-height: 64px !important;
+    padding: 0 !important;
+  }
+
+  html.feishu-home .topic-list-item > td.topic-list-data > .pull-left {
+    display: none !important;
+  }
+
+  html.feishu-home .topic-item-metadata.right {
+    float: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    min-width: 0 !important;
+  }
+
+  html.feishu-home .topic-item-metadata.right > .main-link {
+    display: block !important;
+    width: 100% !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+    padding: 10px 12px 2px 50px !important;
+    box-sizing: border-box !important;
+  }
+
+  html.feishu-home .topic-item-metadata.right > .pull-right {
+    display: none !important;
+  }
+
+  html.feishu-home .topic-item-stats {
+    min-height: 20px !important;
+    margin: 0 !important;
+    padding: 0 12px 8px 50px !important;
+    box-sizing: border-box !important;
+  }
+
+  html.feishu-home .topic-item-stats__category-tags {
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  html.feishu-home .topic-item-stats .activity {
+    display: none !important;
+  }
+}
