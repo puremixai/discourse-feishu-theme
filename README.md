@@ -1,6 +1,12 @@
 # feishu
 
-XAI.RUN 的 Discourse 文档风格主题。它参考了 LinuxDo Lark UI 的页面结构和交互逻辑：左侧文档导航、首页文件列表、主题正文布局、作者信息和浮动工具栏；同时保留论坛原有的内容、发帖、搜索、标签、分类和管理能力。站点 Logo 继续使用 XAI.RUN 的无文字图标。
+一个 Discourse 文档风格主题。它提供左侧文档导航、首页文件列表、主题正文布局、作者信息和浮动工具栏，同时保留论坛原有的内容、发帖、搜索、标签、分类和管理能力。
+
+## 参考来源
+
+本主题的页面结构、样式组织和交互思路参考了 [starwingcc/linuxdo-lark-ui](https://github.com/starwingcc/linuxdo-lark-ui) 项目，重点参考其 [linuxdo-lark.user.js](https://github.com/starwingcc/linuxdo-lark-ui/blob/master/linuxdo-lark.user.js) 的 CSS 与 JavaScript 实现。
+
+本主题将上述思路重新适配到 Discourse 主题体系中，使用 SCSS 和 Discourse API initializer 实现，并根据 Discourse 的 DOM 结构进行了选择器、响应式布局和组件行为调整。参考项目的版权与许可信息以其仓库说明为准。
 
 ## 本地检查
 
@@ -17,8 +23,8 @@ tar -czf .\dist\feishu-theme-v0.2.4.tar.gz -C .\feishu .
 
 ## 首次安装到 Discourse
 
-1. 登录 `https://xai.run` 管理账号。
-2. 打开 `管理后台 → 外观 → 主题和组件`，地址为 `https://xai.run/admin/config/customize/themes`。
+1. 登录你的 Discourse 管理账号。
+2. 打开 `管理后台 → 外观 → 主题和组件`。
 3. 选择安装主题，再选择“从本地设备”，上传 `dist/feishu-theme-v0.2.4.tar.gz`。
 4. 安装成功后先预览，确认首页和主题页正常，再将 `feishu` 设为默认主题。
 
