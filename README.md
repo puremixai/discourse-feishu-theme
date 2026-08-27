@@ -4,6 +4,8 @@
 
 这是一个独立的 Discourse 主题实现，不是飞书官方产品，也不是参考项目的官方发行版。
 
+在线预览：[https://xai.run](https://xai.run)
+
 ## 项目简介
 
 `feishu` 以 Discourse 原生主题能力为基础，使用 SCSS 和 Discourse API initializer 实现，不依赖额外插件。主题在调整信息组织方式的同时，保留 Discourse 原有的发帖、搜索、分类、标签、管理和响应式能力。
